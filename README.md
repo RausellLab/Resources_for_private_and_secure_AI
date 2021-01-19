@@ -5,11 +5,14 @@ We provide here a first non-exhaustive list of learning ressources and libraries
 ================================
 ##  Introductory reviews 
 
-- Data privacy in the age of personal genomics:
+- Secure, privacy-preserving and federated machine learning in medical imaging (2020):
+https://www.nature.com/articles/s42256-020-0186-1
+
+- Data privacy in the age of personal genomics (2019):
 https://www.nature.com/articles/s41587-019-0271-3
 
-- Secure, privacy-preserving and federated machine learning in medical imaging:
-https://www.nature.com/articles/s42256-020-0186-1
+- Machine learning and genomics: precision medicine vs.  patient privacy (2018):
+https://arxiv.org/pdf/1802.10568.pdf
 
 ## Introductory blogs to private and secure IA:
 
