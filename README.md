@@ -29,6 +29,10 @@ https://codingossip.github.io/2020/machine-learning-with-homomorphic-encryption/
 Differential Privacy, Federated Learning and Encrypted Computation (Based on PyTorch and PySyft):
 https://www.udacity.com/course/secure-and-private-ai--ud185
 
+## Privacy Preserving Machine Learning - Course by Aurélien Bellet
+Slides and Jupyter notebooks (in Python) from the course taught by Aurélien Bellet, Master 2 Data Science, University of Lille
+http://researchers.lille.inria.fr/abellet/teaching/private_machine_learning_course.html
+
 ============================================
 ## State-of-the-art machine learning libraries for private IA from two main programing ecosystems:
 
@@ -53,6 +57,9 @@ Python library that includes implementations of TensorFlow optimizers for traini
 
 - **TensorFlow Federated** (Machine Learning on Decentralized Data):https://www.tensorflow.org/federated
 Tutorials on federated learning usingTensorFlow : https://www.tensorflow.org/federated/tutorials/federated_learning_for_image_classification
+Federated Learning Workshop using TensorFlow Federated: https://events.withgoogle.com/demostutorials-workshop-on-federated-learning-and-analytics-2020/
+YouTube Live recording: https://www.youtube.com/watch?v=fNrVh2RWVTc&feature=youtu.be
+Colab notebooks available at:https://events.withgoogle.com/demostutorials-workshop-on-federated-learning-and-analytics-2020/
 
 - **TF Encrypted**: https://github.com/tf-encrypted/tf-encrypted
 is a framework for encrypted machine learning in TensorFlow. It looks and feels like TensorFlow, taking advantage of the ease-of-use of the Keras API while enabling training and prediction over encrypted data via secure multi-party computation and homomorphic encryption. TF Encrypted aims to make privacy-preserving machine learning readily available, without requiring expertise in cryptography, distributed systems, or high performance computing.
@@ -70,15 +77,48 @@ https://github.com/IBM/fhe-toolkit-linux
 https://github.com/homenc/HElib
 
 ============================================
-## OpenMined community
+## Reference sites and communities
 
 - **OpenMined**, an open-source community whose goal is to make the world more privacy-preserving by lowering the barrier-to-entry to private AI technologies: https://www.openmined.org/
 
 - **OpenMined youtube channel**:
 https://www.youtube.com/c/OpenMinedOrg/videos
 
-============================================
-## Additional interesting papers
+- **DifferentialPrivacy.org** https://differentialprivacy.org/about/
+hub for the differential privacy research community and to promote the work in this area
 
-Private federated learning on vertically partitioned datavia entity resolution and additively homomorphic encryption
+- **Ressources highlighted at DifferentialPrivacy.org** : Books, courses, videos, workshops and code libraries:
+https://differentialprivacy.org/resources/ -
+
+- **Federated Learning One World (FLOW) Seminar** : 
+https://sites.google.com/view/one-world-seminar-series-flow/home?authuser=0
+FLOW seminar provides a global online forum for the dissemination of the latest scientific research results in all aspects of federated learning.
+
+- FLOW Archive of Talks (with videos):
+
+Federated Learning One World Seminar
+============================================
+## A deeper dive into differential privacy:
+
+- **Books and publications:**
+
+Differential Privacy: A Primer for a Non-technical Audience (2018)
+https://salil.seas.harvard.edu/files/salil/files/differential_privacy_primer_nontechnical_audience.pdf
+
+The Algorithmic Foundations of Differential Privacy. 2014. C. Dwork and A. Roth.:
+https://www.cis.upenn.edu/~aaroth/privacybook.html
+
+The Complexity of Differential Privacy. 2017. S. Vadhan.
+https://salil.seas.harvard.edu/files/salil/files/manuscript_2017.pdf
+
+The 7th BIU Winter School on Cryptography. Differential Privacy: From Theory to Practice: February 2017: 
+http://cyber.biu.ac.il/event/the-7th-biu-winter-school/
+
+============================================
+## Additional reviews and interesting papers
+
+Advances and Open Problems in Federated Learning, 2019. Kairouz et al.
+https://arxiv.org/pdf/1912.04977.pdf
+
+Private federated learning on vertically partitioned data via entity resolution and additively homomorphic encryption
 https://arxiv.org/pdf/1711.10677.pdf
