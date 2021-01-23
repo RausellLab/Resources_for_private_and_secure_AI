@@ -98,9 +98,9 @@ https://differentialprivacy.org/resources/ -
 https://sites.google.com/view/one-world-seminar-series-flow/home?authuser=0
 FLOW seminar provides a global online forum for the dissemination of the latest scientific research results in all aspects of federated learning.
 
-- FLOW Archive of Talks (with videos):
+- **FLOW's talks** archive (with videos):
+https://sites.google.com/view/one-world-seminar-series-flow/archive?authuser=0
 
-Federated Learning One World Seminar
 ============================================
 ## A deeper dive into differential privacy:
 
