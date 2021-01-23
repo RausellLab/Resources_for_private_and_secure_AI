@@ -56,9 +56,13 @@ https://colab.research.google.com/drive/11jAZ5Xb4UAhO5IMVVUjuKy2zCVgcuKLi
 Python library that includes implementations of TensorFlow optimizers for training machine learning models with differential privacy. The library comes with tutorials and analysis tools for computing the privacy guarantees provided.
 
 - **TensorFlow Federated** (Machine Learning on Decentralized Data):https://www.tensorflow.org/federated
+
 Tutorials on federated learning usingTensorFlow : https://www.tensorflow.org/federated/tutorials/federated_learning_for_image_classification
+
 Federated Learning Workshop using TensorFlow Federated: https://events.withgoogle.com/demostutorials-workshop-on-federated-learning-and-analytics-2020/
+
 YouTube Live recording: https://www.youtube.com/watch?v=fNrVh2RWVTc&feature=youtu.be
+
 Colab notebooks available at:https://events.withgoogle.com/demostutorials-workshop-on-federated-learning-and-analytics-2020/
 
 - **TF Encrypted**: https://github.com/tf-encrypted/tf-encrypted
