@@ -1,4 +1,4 @@
-# Compilation of learning ressources and libraries for private and secure IA
+# Compilation of learning ressources and libraries for private and secure AI
 
 We provide here a first non-exhaustive list of learning ressources and libraries for **private and secure IA** applications. **Differential privacy, federated learning and fully homomorphic encryption** are covered. We will be populating it in the next months with regular updates. You may follow us in Twitter for further news: https://twitter.com/AntonioRausell
 
@@ -14,7 +14,7 @@ https://www.nature.com/articles/s41587-019-0271-3
 - Machine learning and genomics: precision medicine vs.  patient privacy (2018):
 https://arxiv.org/pdf/1802.10568.pdf
 
-## Introductory blogs to private and secure IA:
+## Introductory blogs to private and secure AI:
 
 - Privacy Preserving Deep Learning – PySyft Versus TF-Encrypted
 https://blog.exxactcorp.com/privacy-preserving-deep-learning-pysyft-tfencrypted/
@@ -25,6 +25,15 @@ https://medium.com/intuit-engineering/machine-learning-on-encrypted-data-no-long
 - Why you care about homomorphic encryption
 https://codingossip.github.io/2020/machine-learning-with-homomorphic-encryption/
 
+- A friendly, non-technical introduction to differential privacy
+https://desfontain.es/privacy/friendly-intro-to-differential-privacy.html
+
+## Itroductory videos to private and secure AI:
+
+- Privacy Preserving AI (Andrew Trask) | MIT Deep Learning Series
+https://www.youtube.com/watch?v=4zrU54VIK6k&t=1582s
+
+
 ## Udacity course 
 Differential Privacy, Federated Learning and Encrypted Computation (Based on PyTorch and PySyft):
 https://www.udacity.com/course/secure-and-private-ai--ud185
@@ -34,9 +43,9 @@ Slides and Jupyter notebooks (in Python) from the course taught by Aurélien Bel
 http://researchers.lille.inria.fr/abellet/teaching/private_machine_learning_course.html
 
 ============================================
-## State-of-the-art machine learning libraries for private IA from two main programing ecosystems:
+## State-of-the-art machine learning libraries for private AI from two main programing ecosystems:
 
-### PySyft-based ecosystem for private IA:
+### PySyft-based ecosystem for private AI:
 
 - **PySyft** : https://github.com/OpenMined/PySyft/
 is a Python library for secure and private Deep Learning. PySyft decouples private data from model training, using Federated Learning, Differential Privacy, and Encrypted Computation (like Multi-Party Computation (MPC) and  Homomorphic Encryption (HE) within the main Deep Learning frameworks like PyTorch and TensorFlow. See video tutorials therein
@@ -50,14 +59,14 @@ https://www.youtube.com/watch?v=MOcTGM_UteM
 - Google Colab Tutorial and Notebook for the Privacy in Machine Learning video from Jordan Harrod's AI 101 series
 https://colab.research.google.com/drive/11jAZ5Xb4UAhO5IMVVUjuKy2zCVgcuKLi
 
-### TensorFlow-based ecosystem for private IA:
+### TensorFlow-based ecosystem for private AI:
 
 - **TensorFlow Privacy**: https://github.com/tensorflow/privacy
 Python library that includes implementations of TensorFlow optimizers for training machine learning models with differential privacy. The library comes with tutorials and analysis tools for computing the privacy guarantees provided.
 
 - **TensorFlow Federated** (Machine Learning on Decentralized Data):https://www.tensorflow.org/federated
 
--- Tutorials on federated learning usingTensorFlow : https://www.tensorflow.org/federated/tutorials/federated_learning_for_image_classification
+-- Tutorials on federated learning using TensorFlow : https://www.tensorflow.org/federated/tutorials/federated_learning_for_image_classification
 
 -- Federated Learning Workshop using TensorFlow Federated: https://events.withgoogle.com/demostutorials-workshop-on-federated-learning-and-analytics-2020/
 
@@ -67,6 +76,27 @@ Python library that includes implementations of TensorFlow optimizers for traini
 
 - **TF Encrypted**: https://github.com/tf-encrypted/tf-encrypted
 is a framework for encrypted machine learning in TensorFlow. It looks and feels like TensorFlow, taking advantage of the ease-of-use of the Keras API while enabling training and prediction over encrypted data via secure multi-party computation and homomorphic encryption. TF Encrypted aims to make privacy-preserving machine learning readily available, without requiring expertise in cryptography, distributed systems, or high performance computing.
+
+### Flower ecosystem for private AI:
+
+- **Flower**: https://github.com/adap/flower
+friendly Python library for federated learning, analytics and evaluation. It supports both Pytorch and Tensorflow.
+
+-- Tutorials on federated learning using Flower: https://flower.dev/docs/ 
+
+-- Recording of Flower Summit 2021: https://www.youtube.com/channel/UC-6quleTjPNZdsH6uRtkMkQ
+
+============================================
+## About Differential Privacy: Introduction and libraries
+
+- **Opacus**: https://github.com/pytorch/opacus
+is a Python library that enables to train neural networks models with differential privacy. It only support Pytorch models.
+
+- **PyDP**: https://github.com/OpenMined/PyDP
+is a Python library featuring differentially private algorithms to produce aggregate statistics over private information.
+
+- **OpenDP**: https://github.com/opendp/opendp
+is a library implemented in Rust, with biding for easy use in Python. It contains a set of statistical algorithms for building privacy-preserving applications.
 
 ============================================
 ## About homomorphic encryption: Introduction and libraries
