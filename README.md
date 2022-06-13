@@ -148,6 +148,12 @@ https://salil.seas.harvard.edu/files/salil/files/manuscript_2017.pdf
 The 7th BIU Winter School on Cryptography. Differential Privacy: From Theory to Practice: February 2017: 
 http://cyber.biu.ac.il/event/the-7th-biu-winter-school/
 
+- **Courses:**
+Applied Privacy for Data Science
+https://github.com/opendp/cs208/blob/main/spring2022/index.md
+
+
+
 ============================================
 ## Additional reviews and interesting papers
 
@@ -156,3 +162,8 @@ https://arxiv.org/pdf/1912.04977.pdf
 
 Private federated learning on vertically partitioned data via entity resolution and additively homomorphic encryption
 https://arxiv.org/pdf/1711.10677.pdf
+
+Group privacy for personalized federated learning, 2022. Galli et al.
+https://arxiv.org/pdf/2206.03396.pdf
+
+
